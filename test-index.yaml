@@ -1,0 +1,11 @@
+---
+- name: "DNS 服务"
+  script: "100-dns-server-ipv6-connectivity.sh"
+- name: "根域网站"
+  script: "300-root-domain-http-connectivity.sh"
+- name: "WWW 网站"
+  script: "301-www-host-http-connectivity.sh"
+- name: "邮件 MDA"
+  script: "500-mail-exchanger-aaaa-record.sh"
+---
+

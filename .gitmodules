@@ -1,0 +1,3 @@
+[submodule "domains"]
+	path = domains
+	url = https://github.com/IPv6-CN/network-testing-domains.git
